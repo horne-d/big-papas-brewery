@@ -11,7 +11,6 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 
-  
   <script src="https://use.fontawesome.com/17ee412d15.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -32,7 +31,7 @@
        <span class="icon-bar"></span>
      </button>
    </div>
-   
+
    <ul id="myCollapsingList" class ="nav navbar-nav navbar-right collapse navbar-collapse">
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About Us</a></li>
@@ -55,6 +54,77 @@
 <!-- ========================== Content Section
   ==================-->
 
+
+  <div class="form-section">
+    <div id="why" class="container">
+      <h1 style="padding-bottom: 10px">How to get in touch</h1>
+      <div class="row">
+        <div class="col-sm-4">
+          <i class="fa fa-phone fa-3x" aria-hidden="true"></i>
+          <h3>By Phone</h3>
+          <p>For any order queries or to book a brewery tour, call us 01234 456789.</p>
+        </div>
+
+        <div class="col-sm-4">
+          <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+          <h3>By Email</h3>
+          <p>Use the form below and send us a quick email, we will try and get back to you as quickly as possible.</p>
+        </div>
+
+        <div class="col-sm-4">
+          <i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
+          <h3>Drop In</h3>
+          <p>Find us at the below address:<br>
+          123 Brewery Lane, 
+          Beer Street, 
+          London, 
+          L1 1LN, 
+          United Kingdom</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="container">
+  <div class="col-lg-3 col-sm-2">
+  </div>
+  <div class="col-lg-6 col-sm-8">
+  <form>
+      <!-- Your Details -->
+      <fieldset>
+        <legend>Your Details:</legend>
+        <input type="text" name="firstname" placeholder="First Name" required />
+                <span class="tick"></span>
+        <input type="text" name="lastname" placeholder="Last Name" required />
+                <span class="tick"></span>
+        <input type="email" name="email" placeholder="Your Email" required />
+                <span class="tick"></span>
+      </fieldset>
+
+      <!-- Comments -->
+      <fieldset>
+        <legend>Have your say:</legend>
+          <input type="radio" id="feedback" name="options" required>
+            <label for="feedback">Feedback</label><br/>
+          <input type="radio" id="order" name="options" required>
+            <label for="order">Ordering</label><br/>
+          <input type="radio" id="product" name="options" required>
+            <label for="product">Product Suggestion</label><br/>
+          <input type="radio" id="other" name="options" required>
+            <label for="other">Other</label><br/>
+              <span class="tick"></span>
+        <textarea name="comment" placeholder="Enter your message..." required></textarea>
+              <span class="tick"></span>
+          <!--============= Submit ============-->
+      <input type="submit" value="Submit" />
+      </fieldset>
+  </form>
+  </div>
+  <div class="col-lg-3 col-sm-2">
+  </div>
+</div>
 
 <!-- ========================== Footer Section
   ==================-->
@@ -100,6 +170,14 @@
 
 <!-- ========================== Javascript
   ==================-->
+
+  <script type="text/javascript">
+//auto expand textarea
+function adjust_textarea(h) {
+    h.style.height = "20px";
+    h.style.height = (h.scrollHeight)+"px";
+}
+</script>
 
   <script src="js/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

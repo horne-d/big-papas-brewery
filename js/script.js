@@ -17,3 +17,10 @@ $(document).ready(function () {
                                 .addClass("fa-caret-right");
             });
         });
+
+function submitForm() {
+   var frm = document.getElementsByName('contact')[0];
+   frm.submit();
+   frm.reset();
+   return false;
+}

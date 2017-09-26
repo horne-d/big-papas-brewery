@@ -312,4 +312,9 @@ p {
 	padding-top: 20px;
 }
 
+/* FORM CSS */
 
+form {
+	margin: 20px;
+	color: #eee;
+}
