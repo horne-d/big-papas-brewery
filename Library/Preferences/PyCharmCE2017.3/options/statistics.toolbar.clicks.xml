@@ -1,12 +1,20 @@
 <application>
   <component name="ToolbarClicksCollector">
     <counts>
-      <entry action="Run@NavBarToolbar" count="1" />
+      <entry action="Debug@NavBarToolbar" count="1" />
+      <entry action="Rerun@RunnerToolbar" count="24" />
+      <entry action="Run@NavBarToolbar" count="3" />
+      <entry action="Stop@DebuggerToolbar" count="1" />
+      <entry action="Stop@RunnerToolbar" count="11" />
+      <entry action="com.intellij.application.options.schemes.AbstractSchemesPanel$ShowSchemesActionsListAction@NavBarToolbar" count="1" />
+      <entry action="com.intellij.execution.console.ConsoleExecuteAction@PydevConsoleRunner" count="1" />
       <entry action="com.intellij.notification.EventLogToolWindowFactory$DisplayBalloons@EventLog" count="1" />
+      <entry action="com.intellij.openapi.editor.actions.ScrollToTheEndToolbarAction@EventLog" count="1" />
       <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="1" />
-      <entry action="com.intellij.webcore.packaging.InstalledPackagesPanel$4@ToolbarDecorator" count="1" />
+      <entry action="com.intellij.webcore.packaging.InstalledPackagesPanel$4@ToolbarDecorator" count="3" />
       <entry action="com.jetbrains.python.configuration.PythonSdkDetailsDialog$ShowPathButton@ToolbarDecorator" count="1" />
-      <entry action="org.jetbrains.plugins.terminal.TerminalView$CloseSession@Terminal" count="1" />
+      <entry action="com.jetbrains.python.console.PydevConsoleRunnerImpl$7@PydevConsoleRunner" count="1" />
+      <entry action="org.jetbrains.plugins.terminal.TerminalView$CloseSession@Terminal" count="2" />
     </counts>
   </component>
 </application>
