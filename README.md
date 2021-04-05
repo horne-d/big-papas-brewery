@@ -1,6 +1,8 @@
 # Big Papas Brewery
 This was my first project for Code Institute. This was a website designed and built for a new local brewery, to give the user information on what the brewery sells, and an insite into the new state of the art facilities.
 
+This was also one of the first projects I made in terms of web development. There is a lot I would change now in terms of style and design, however it is a nice reminder of how I started.
+
 # Technologies Used
 * HTML
 * CSS
